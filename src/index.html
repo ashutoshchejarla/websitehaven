@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Haven</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Website Haven</div>
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#products">Templates</a></li>
+            <li><a href="#whyus">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro" class="intro-section">
+        <h1>Welcome to Website Haven</h1>
+        <p>Your one-stop shop for beautiful, affordable website templates. Elevate your online presence with our handpicked designs!</p>
+        <canvas></canvas>
+    </section>
+
+    <section id="products">
+        <h2>Our Templates</h2>
+        <div class="product-container">
+            <button id="prev" class="nav-button">←</button>
+            <div class="product" id="product"></div>
+            <button id="next" class="nav-button">→</button>
+        </div>
+    </section>
+
+    <section id="whyus">
+        <h2>Why Choose Us?</h2>
+        <div class="whyus-content">
+            <div class="whyus-card">
+                <h3>Affordable Pricing</h3>
+                <p>Get premium designs at a fraction of the cost.</p>
+            </div>
+            <div class="whyus-card">
+                <h3>Modern Designs</h3>
+                <p>Trendy, responsive templates for every business.</p>
+            </div>
+            <div class="whyus-card">
+                <h3>Easy Customization</h3>
+                <p>Simple to edit and launch, even for beginners.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Website Haven. All rights reserved.
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
